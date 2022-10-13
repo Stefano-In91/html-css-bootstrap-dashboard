@@ -12,6 +12,10 @@ aside i {
    font-size: 1.25rem;
    width: 1.25rem;
 }
+aside li:nth-of-type(2) i {
+   position: relative;
+   left: 0.125rem;
+}
 aside > div {
    height: 100%;
 }
