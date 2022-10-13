@@ -1,3 +1,20 @@
 /*-----------------
    ASIDE
 -----------------*/
+
+aside {
+   background-color: var(--ms-bg-aside);
+   background-image: url(../img/sidebar-bg.png);
+   color: white;
+}
+
+aside i {
+   font-size: 1.25rem;
+   width: 1.25rem;
+}
+aside > div {
+   height: 100%;
+}
+aside > div > div:last-child {
+   margin-top: auto;
+}
