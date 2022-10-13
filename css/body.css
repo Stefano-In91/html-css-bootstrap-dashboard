@@ -1,3 +1,24 @@
 /*-----------------
    BODY
 -----------------*/
+
+header {
+   height: 4.375rem;
+}
+.ms-body-container {
+   height: calc(100vh - 4.375rem);
+}
+aside {
+   width: 4.375rem;
+   flex-shrink: 0;
+}
+main {
+   flex-grow: 1;
+   overflow-y: auto;
+}
+
+@media screen and (min-width: 960px) {
+   aside {
+      width: 10rem;
+   }
+}
