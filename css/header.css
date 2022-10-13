@@ -1,3 +1,31 @@
 /*-----------------
    HEADER
 -----------------*/
+
+.ms-container-header {
+   width: 100%;
+   background-color: white;
+}
+.ms-logo img {
+   max-height: 3rem;
+}
+.ms-logo, .ms-nav-btns {
+   width: 4.375rem;
+}
+.ms-nav-btns {
+   text-align: right;
+}
+.ms-nav-btns a {
+   color: inherit;
+}
+i.fa-bell {
+   color: orange;
+}
+@media screen and (min-width: 992px) {
+   .ms-logo, .ms-nav-btns {
+      width: 10rem;
+   }
+   .ms-logo {
+      padding: .5rem 0;
+   }
+}

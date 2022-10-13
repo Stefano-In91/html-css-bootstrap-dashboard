@@ -4,9 +4,11 @@
 
 header {
    height: 4.375rem;
+   background-color: var(--ms-bg-header);
 }
 .ms-body-container {
    height: calc(100vh - 4.375rem);
+   background-color: white;
 }
 aside {
    width: 4.375rem;
@@ -17,7 +19,7 @@ main {
    overflow-y: auto;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 992px) {
    aside {
       width: 10rem;
    }

@@ -18,9 +18,28 @@
    </head>
    <body>
       <!-- Header -->
-      <header>
-         <div class="container-flex">
+      <header class="d-flex align-items-center">
+         <div class="ms-container-header d-flex align-items-center">
+            <div class="ms-logo d-flex justify-content-center">
+               <img class="d-lg-none" src="img/mobile-logo.png" alt="mobile-logo">
+               <img class="d-none d-lg-block" src="img/logo.svg" alt="logo">
+            </div>
 
+            <div class="input-group col mx-2">
+               <div class="input-group-prepend">
+                  <button class="btn border border-right-0 rounded-left" type="button" for="search-input">
+                      <i class="fa fa-search"></i>
+                  </button>
+               </div>
+               <input class="form-control border border-left-0 rounded-right" type="search" id="search-input" placeholder="Prova a cercare">
+            </div>
+
+            <div class="ms-nav-btns d-flex justify-content-center">
+               <a class="mx-2 d-none d-lg-inline-block" href=""><i class="fa-solid fa-list-ul"></i></a>
+               <a class="mx-2 d-none d-lg-inline-block" href=""><i class="fa-solid fa-circle-question"></i></a>
+               <a class="mx-2 d-none d-lg-inline-block" href=""><i><i class="fa-solid fa-ellipsis-vertical"></i></i></a>
+               <a class="mx-3" href=""><i class="fa-solid fa-bell"></i></a>
+            </div>
          </div>
       </header>
       <!-- /Header -->
