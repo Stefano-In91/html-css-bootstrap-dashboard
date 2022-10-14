@@ -4,6 +4,7 @@
 main > div:not(:first-child) {
    font-size: .9rem;
 }
+
 /* Table Formatting */
 th img {
    height: 1.5rem;
@@ -13,6 +14,11 @@ th:not(:first-child), td {
    text-align: center;
 }
 
+/* Graph */
+.ms-graph {
+   max-width: 100%;
+}
+/* Font-Size responsive xl */
 @media screen and (min-width: 1200px) {
    main > div:not(:first-child) {
       font-size: 1rem;
