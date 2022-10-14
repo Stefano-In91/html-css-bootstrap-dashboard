@@ -8,7 +8,7 @@ main > div:not(:first-child) {
 /* Table Formatting */
 th img {
    height: 1.5rem;
-   margin-right: 4px;
+   margin-right: .25rem;
 }
 th:not(:first-child), td {
    text-align: center;
