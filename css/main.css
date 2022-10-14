@@ -1,7 +1,9 @@
 /*-----------------
    MAIN
 -----------------*/
-
+main > div:not(:first-child) {
+   font-size: .9rem;
+}
 /* Table Formatting */
 th img {
    height: 1.5rem;
@@ -10,6 +12,9 @@ th img {
 th:not(:first-child), td {
    text-align: center;
 }
-td {
-   font-size: .9rem;
+
+@media screen and (min-width: 1200px) {
+   main > div:not(:first-child) {
+      font-size: 1rem;
+   }
 }
