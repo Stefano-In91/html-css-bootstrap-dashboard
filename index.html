@@ -26,12 +26,12 @@
             </div>
 
             <div class="input-group col mx-2 position-relative">
-               <div class="input-group-prepend ms-search-button position-absolute">
+               <div class="ms-search-button position-absolute">
                   <button class="btn" type="button" for="search-input">
                       <i class="fa fa-search"></i>
                   </button>
                </div>
-               <input class="form-control border rounded ps-5" style="background-color: var(--ms-bg-header);" type="search" id="search-input" placeholder="Prova a cercare">
+               <input class="form-control border rounded ps-5" style="background-color: #e5e5e5;" type="search" id="search-input" placeholder="Prova a cercare">
             </div>
 
             <div class="ms-nav-btns d-flex justify-content-center">
@@ -51,20 +51,18 @@
       </header>
       <!-- /Header -->
       <!-- Main Container -->
-      <div class="ms-body-container d-flex">
+      <div class="ms-body-container d-flex"">
          <!-- Aside -->
          <aside>
-            <div class="d-flex flex-column align-items-center p-4">
-               <div>
-                  <ul class="px-0">
-                     <li class="my-2"><a href=""><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline-block ms-3">Home</span></a></li>
-                     <li class="my-2"><a href=""><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline-block ms-3">Stats</span></a></li>
-                     <li class="my-2"><a href=""><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline-block ms-3">Signals</span></a></li>
-                  </ul>
-               </div>
-               <div>
-                  <a href=""><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block ms-3">Admin</span></a>
-               </div>
+            <div class="d-flex flex-column align-items-center h-100 p-4">
+               <ul class="px-0">
+                  <li class="my-2"><a href=""><i class="fa-solid fa-house"></i><span class="d-none d-lg-inline-block ms-3">Home</span></a></li>
+                  <li class="my-2"><a href=""><i class="fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline-block ms-3">Stats</span></a></li>
+                  <li class="my-2"><a href=""><i class="fa-solid fa-signal"></i><span class="d-none d-lg-inline-block ms-3">Signals</span></a></li>
+               </ul>
+               <ul class="mt-auto px-0">
+                  <li class="my-2"><a href=""><i class="fa-solid fa-gear"></i><span class="d-none d-lg-inline-block ms-3">Admin</span></a></li>
+               </ul>
             </div>
          </aside>
          <!-- /Aside -->
@@ -89,7 +87,7 @@
                </div>
             </div>
             <!-- /Header Main -->
-            <div class="container-fluid">
+            <div class="container-fluid" style="background-color: var(--ms-bg-header);">
                <div class="d-flex flex-wrap">
                   <!-- Left Col -->
                   <div class="col-12 col-lg-8">
