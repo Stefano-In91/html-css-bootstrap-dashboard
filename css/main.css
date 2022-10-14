@@ -1,3 +1,15 @@
 /*-----------------
    MAIN
 -----------------*/
+
+/* Table Formatting */
+th img {
+   height: 1.5rem;
+   margin-right: 4px;
+}
+th:not(:first-child), td {
+   text-align: center;
+}
+td {
+   font-size: .9rem;
+}
